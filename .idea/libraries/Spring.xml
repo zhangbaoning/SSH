@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Spring" type="spring">
+    <CLASSES>
+      <root url="jar://D:/java/spring-web-4.2.6.RELEASE.jar!/" />
+      <root url="jar://D:/java/spring-framework-4.2.6.RELEASE/libs/spring-beans-4.2.6.RELEASE.jar!/" />
+      <root url="jar://D:/java/spring-framework-4.2.6.RELEASE/libs/spring-jdbc-4.2.6.RELEASE.jar!/" />
+      <root url="jar://D:/java/spring-framework-4.2.6.RELEASE/libs/spring-orm-4.2.6.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
