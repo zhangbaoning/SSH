@@ -9,7 +9,8 @@ import java.util.List;
  */
 public interface UserDAO {
     public void saver(User user);
-    public void delete(User user);
+
+    public void delete(int id);
     public void updata(User user);
     public List queryAll();
     public User queryByID(int id);

@@ -32,4 +32,17 @@
             </list>
         </property>
     </bean>
+    <bean class="org.springframework.orm.hibernate3.HibernateTemplate" id="hibernateTemplate">
+        <property name="sessionFactory">
+            <ref bean="sessionFactory"/>
+        </property>
+    </bean>
+    <bean class="com.javaweb.dao.UserDAOImpl" id="userDAO">
+        <property name="hibernateTemplate">
+            <ref bean="hibernateTemplate"></ref>
+        </property>
+    </bean>
+    <bean class="com.javaweb.service.UserServiceImpl" id="userService">
+        <property name="userDAO" ref="userDAO"></property>
+    </bean>
 </beans>
