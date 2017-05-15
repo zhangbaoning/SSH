@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="ssh">
+    <CLASSES>
+      <root url="file://D:/java/ssh" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://D:/java/ssh" recursive="false" />
+  </library>
+</component>
